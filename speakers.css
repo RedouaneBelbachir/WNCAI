@@ -1,0 +1,52 @@
+/* Speakers Section */
+#speakers {
+   /* background: url('./images/SpeakerBanner.gif') no-repeat center center/cover;*/
+   background: url('./images/speakersBack.png') no-repeat center center/cover;
+   
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.speaker {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.speaker img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+/* Styles Globaux */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.speaker h3 {
+    color: white; /* Texte en blanc */
+}
+
+
+.title-box {
+    display: inline-block; /* Limite la largeur au contenu */
+    background-color: rgba(255, 255, 255, 0.8); /* Fond blanc avec 50% d'opacité */
+    border-radius: 10px; /* Bordures arrondies */
+    padding: 10px 20px; /* Espacement interne */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+.title-box h2 {
+    margin: 0; /* Supprime les marges par défaut du titre */
+    font-size: 2rem; /* Taille du titre */
+    color: rgba(62,106,150, 1); /* Couleur du texte */
+}
+

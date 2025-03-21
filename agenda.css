@@ -1,0 +1,38 @@
+/* Agenda Section */
+#agenda {
+    background: white;
+    padding: 50px 0;
+}
+
+#agenda table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#agenda th, #agenda td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+#agenda th {
+    background: #f4f4f4;
+}
+
+td[colspan="3"] {
+	text-align: center !important; /* Force le centrage */
+    background-color: #f0f8ff; /* Fond légèrement coloré */
+    border: 1px solid #ccc; /* Bordure visible */
+    padding: 10px; /* Espacement interne */
+	
+}
+
+td[colspan="2"] {
+	text-align: center !important; /* Force le centrage */
+    background-color: #f0f8ff; /* Fond légèrement coloré */
+    border: 1px solid #ccc; /* Bordure visible */
+    padding: 10px; /* Espacement interne */
+	
+}
+
